@@ -12,7 +12,7 @@ public class GCD {
             divs = tempdivs;
         }
 
-        return divd;
+        return divd; 
     }
 }
  
