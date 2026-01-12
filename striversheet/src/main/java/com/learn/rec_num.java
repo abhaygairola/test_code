@@ -63,4 +63,19 @@ public class rec_num {
         return x;
 
     }
+    public static int[] rec_rev(int [] x, int n){
+        int ar_last = x.length -1;
+        int to = n-1;
+        int from= ar_last-to;
+
+        int temp = x[to];
+        x[to]=x[from];
+        x[from]=temp;
+        if(n>x.length/2){
+            x=rec_rev(x, n-1);
+        }
+
+        return x;
+
+    }
 }
