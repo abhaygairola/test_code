@@ -78,4 +78,17 @@ public class rec_num {
         return x;
 
     }
+
+    public static String rec_palind(String s, int n) {
+        int len = s.length();
+        int to = n - 1;
+        int from = len - n;
+        if (to > from) {
+            if (s.charAt(to) == s.charAt(from)) {
+                return rec_palind(s, n - 1);
+            } else
+                return "NO";
+        } else
+            return "YES";
+    }
 }

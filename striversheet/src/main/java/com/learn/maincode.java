@@ -8,11 +8,11 @@ public class maincode {
 
     public static void main(String[] args) {
 
-        // Scanner s = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         // System.out.println("Give me the number:");
         // int n1 = s.nextInt();
-        // // System.out.println("Give me the name:");
-        // // String nm = s.next();
+        System.out.println("Give me the name:");
+        String nm = s.next();
         // // rec_num.rec_name(n1, nm);
         // // // rec_num.rec_rev_count_comma(n1,1);
         // // System.out.println("sum using rec:"+rec_num.rec_sum(n1));
@@ -33,8 +33,9 @@ public class maincode {
 
         // s.close();
 
-        int x[]={23432,1,2,3,4,5,6,7,8,9,24,342,32,234};
-        System.out.println(Arrays.toString((rec_num.rec_rev(x, x.length))));
+        // int x[]={23432,1,2,3,4,5,6,7,8,9,24,342,32,234};
+        // System.out.println(Arrays.toString((rec_num.rec_rev(x, x.length))));
+        System.out.println("Palindrome : "+rec_num.rec_palind(nm,nm.length()));
 
     }
 }
