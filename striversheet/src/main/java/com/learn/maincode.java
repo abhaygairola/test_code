@@ -29,7 +29,7 @@ public class maincode {
         // // System.out.println(divs.prntdiv(n1));
         // HashMap<Integer,Integer> t=  new HashMap<>();
         // rec_num.rec_fac(n1, t);
-        // System.out.println(t.values());
+        // System.out.println(t.values()); 
 
         // s.close();
 
