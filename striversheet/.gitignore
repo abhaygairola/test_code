@@ -2,4 +2,4 @@ target/**/*.sql
 /.project
 /target/
 /.DS_Store
-/target/*
+target/
