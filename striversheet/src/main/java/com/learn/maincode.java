@@ -12,6 +12,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Scanner;
@@ -46,10 +47,29 @@ public class maincode {
         // HashMap<Integer,Integer> t= new HashMap<>();
         // rec_num.rec_fac(n1, t);
         // System.out.println(t.values());
-        test5();
+        simplesort<Integer> x = new simplesort<>();
+
+        Integer y[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
+        x.Bubble_sort(y);
+        List<Integer> a = Arrays.asList(y);
+        System.out.println("bubb:"+a);
+
+
+        Integer y1[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
+        x.selection_sort(y1);
+        a = Arrays.asList(y1);
+        System.out.println("sell:"+a);
+
+
+
+        Integer y2[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
+        x.instertion_sort(y2);
+        a = Arrays.asList(y2);
+        System.out.println("inss:"+a);
+
         // // s.close();
 
-        // // int x[]={23432,1,2,3,4,5,6,7,8,9,24,342,32,234};
+        // // 
         // // System.out.println(Arrays.toString((rec_num.rec_rev(x, x.length))));
         // System.out.println("Palindrome : "+rec_num.rec_palind(nm,nm.length()));
 
