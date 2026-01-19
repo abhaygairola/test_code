@@ -10,7 +10,7 @@ public class GCD {
             tempdivs = divd % divs;
             divd = divs;
             divs = tempdivs;
-        }
+        }   
 
         return divd;  
     }
