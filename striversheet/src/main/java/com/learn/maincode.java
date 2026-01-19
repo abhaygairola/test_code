@@ -47,25 +47,28 @@ public class maincode {
         // HashMap<Integer,Integer> t= new HashMap<>();
         // rec_num.rec_fac(n1, t);
         // System.out.println(t.values());
-        simplesort<Integer> x = new simplesort<>();
+        // simplesort<Integer> x = new simplesort<>();
+        processxml x =new processxml();
+        x.doProcessMessage();
+        
 
-        Integer y[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
-        x.Bubble_sort(y);
-        List<Integer> a = Arrays.asList(y);
-        System.out.println("bubb:"+a);
-
-
-        Integer y1[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
-        x.selection_sort(y1);
-        a = Arrays.asList(y1);
-        System.out.println("sell:"+a);
+        // Integer y[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
+        // x.Bubble_sort(y);
+        // List<Integer> a = Arrays.asList(y);
+        // System.out.println("bubb:"+a);
 
 
+        // Integer y1[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
+        // x.selection_sort(y1);
+        // a = Arrays.asList(y1);
+        // System.out.println("sell:"+a);
 
-        Integer y2[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
-        x.instertion_sort(y2);
-        a = Arrays.asList(y2);
-        System.out.println("inss:"+a);
+
+
+        // Integer y2[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
+        // x.instertion_sort(y2);
+        // a = Arrays.asList(y2);
+        // System.out.println("inss:"+a);
 
         // // s.close();
 
