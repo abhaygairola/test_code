@@ -1,6 +1,6 @@
 package com.learn;
 
-public class GCD {
+public class GCD {  
     public static int giveGCD(int a, int b) {
         int divd = Math.max(a, b);
         int divs = Math.min(a, b);
