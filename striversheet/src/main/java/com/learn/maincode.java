@@ -26,8 +26,9 @@ public class maincode {
     public static void main(String[] args) {
 
         // Scanner s = new Scanner(System.in);
-        // // System.out.println("Give me the number:");
-        // // int n1 = s.nextInt();
+        // System.out.println("Give me the number:");
+        // int n1 = s.nextInt();
+        // System.out.println("palind:"+palindrome.isPalindrome(n1));
         // System.out.println("Give me the name:");
         // String nm = s.next();
         // // rec_num.rec_name(n1, nm);
@@ -49,25 +50,30 @@ public class maincode {
         // System.out.println(t.values());
         simplesort<Integer> x = new simplesort<>();
 
-        Integer y[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
+        Integer y[]={23,432,324,1,1,1,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6,42342};
         x.Bubble_sort(y);
         List<Integer> a = Arrays.asList(y);
         System.out.println("bubb:"+a);
 
 
-        Integer y1[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
+        Integer y1[]={23,432,324,1,1,1,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6,42342};
         x.selection_sort(y1);
         a = Arrays.asList(y1);
         System.out.println("sell:"+a);
 
 
 
-        Integer y2[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
-        x.instertion_sort(y2);
-        a = Arrays.asList(y2);
-        System.out.println("inss:"+a);
+        // Integer y2[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
+        // x.instertion_sort(y2);
+        // a = Arrays.asList(y2);
+        // System.out.println("inss:"+a);3242
 
-        // // s.close();
+        Integer y4[]={23,432,324,1,1,1,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6,42342};
+        quick_sortt.qck_srt(y4,0,y4.length-1);
+        a = Arrays.asList(y4);
+        System.out.println("quik:"+a);
+
+        // s.close();
 
         // // 
         // // System.out.println(Arrays.toString((rec_num.rec_rev(x, x.length))));
