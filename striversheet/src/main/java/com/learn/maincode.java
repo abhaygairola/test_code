@@ -45,134 +45,135 @@ public class maincode {
         // // System.out.println(divs.prntdiv(n1));
         // // System.out.println(prime.isPrime(n1));
         // // System.out.println(divs.prntdiv(n1));
-        // HashMap<Integer,Integer> t= new HashMap<>();
-        // rec_num.rec_fac(n1, t);
-        // // System.out.println(t.values());
+//         // HashMap<Integer,Integer> t= new HashMap<>();
+//         // rec_num.rec_fac(n1, t);
+//         // // System.out.println(t.values());
         simplesort<Integer> x = new simplesort<>();
-        // processxml x =new processxml();
-        // x.doProcessMessage();
+//         // processxml x =new processxml();
+//         // x.doProcessMessage();
 
         
 
         Integer y[]={23,432,324,1,1,1,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6,42342};
         x.Bubble_sort(y);
-        List<Integer> a = Arrays.asList(y);
-        System.out.println("bubb:"+a);
+        List<Integer> b = Arrays.asList(y);
+        System.out.println("bubb:"+b);
 
-
+        List<Integer> a ;
         Integer y1[]={23,432,324,1,1,1,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6,42342};
-        x.selection_sort(y1);
+//         x.selection_sort(y1);
+        rec_num.rec_bub(y1, y1.length-1);
         a = Arrays.asList(y1);
-        System.out.println("sell:"+a);
+        System.out.println("rbub:"+a);
 
 
 
-        // Integer y2[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
-        // x.instertion_sort(y2);
-        // a = Arrays.asList(y2);
-        // System.out.println("inss:"+a);3242
+//         // Integer y2[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
+//         // x.instertion_sort(y2);
+//         // a = Arrays.asList(y2);
+//         // System.out.println("inss:"+a);3242
 
 
-                int y3[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
-        compx_sort.merge_srt(y3, 0, y3.length-1);
-        a = Arrays.asList(y2);
-        System.out.println("merg:"+a);
+//                 int y3[]={23,432,1,2,3,4,5,6,4343,32427,8,9,24,342,32,234,1,2,3,4,5,6};
+//         compx_sort.merge_srt(y3, 0, y3.length-1);
+//         a = Arrays.asList(y2);
+//         System.out.println("merg:"+a);
 
 
 
 
-        // // s.close();
+//         // // s.close();
 
-        // // 
-        // // System.out.println(Arrays.toString((rec_num.rec_rev(x, x.length))));
-        // System.out.println("Palindrome : "+rec_num.rec_palind(nm,nm.length()));
+//         // // 
+//         // // System.out.println(Arrays.toString((rec_num.rec_rev(x, x.length))));
+//         // System.out.println("Palindrome : "+rec_num.rec_palind(nm,nm.length()));
 
     }
 
-//     public static void test2() {
+// //     public static void test2() {
 
-//         ArrayList<Integer> al = new ArrayList<>();
-//         al.add(21);
-//         System.out.println(al.toString());
-//         al.add(3);
-//         System.out.println(al.toString());
-//         al.add(765);
-//         System.out.println(al.toString());
-//         al.add(1);
-//         System.out.println(al.toString());
-//         al.add(87);
-//         System.out.println(al.toString());
-//         al.add(87);
-//         System.out.println(al.toString());
-//         System.out.println(al.toString());
-//         al.remove((Integer) 1);
-//         System.out.println(al.toString());
-//         ArrayList<Integer> al2 = new ArrayList<>();
-//         al2.addAll(al);
-//         al2.remove((Integer) 87);
-//         System.out.println(al2.contains(87));
-//         al2.remove((Integer) 87);
-//         System.out.println(al2.contains(87));
-//         System.out.println(al2);
-//         al.removeAll(al2);
-//         System.out.println(al);
-//         // System.out.println(al.size());
-//         // System.out.println(al2.size());
-//         Iterator i = al2.iterator();
-//         while(i.hasNext()){
-//                 System.out.println(i.next());
-//         }
-//         System.out.println("--------------");
-//         for(Integer ii:al) {System.out.println(ii);}
-//         Collections.sort(al2);
-//         System.out.println(al2);
+// //         ArrayList<Integer> al = new ArrayList<>();
+// //         al.add(21);
+// //         System.out.println(al.toString());
+// //         al.add(3);
+// //         System.out.println(al.toString());
+// //         al.add(765);
+// //         System.out.println(al.toString());
+// //         al.add(1);
+// //         System.out.println(al.toString());
+// //         al.add(87);
+// //         System.out.println(al.toString());
+// //         al.add(87);
+// //         System.out.println(al.toString());
+// //         System.out.println(al.toString());
+// //         al.remove((Integer) 1);
+// //         System.out.println(al.toString());
+// //         ArrayList<Integer> al2 = new ArrayList<>();
+// //         al2.addAll(al);
+// //         al2.remove((Integer) 87);
+// //         System.out.println(al2.contains(87));
+// //         al2.remove((Integer) 87);
+// //         System.out.println(al2.contains(87));
+// //         System.out.println(al2);
+// //         al.removeAll(al2);
+// //         System.out.println(al);
+// //         // System.out.println(al.size());
+// //         // System.out.println(al2.size());
+// //         Iterator i = al2.iterator();
+// //         while(i.hasNext()){
+// //                 System.out.println(i.next());
+// //         }
+// //         System.out.println("--------------");
+// //         for(Integer ii:al) {System.out.println(ii);}
+// //         Collections.sort(al2);
+// //         System.out.println(al2);
 
-//     }
+// //     }
 
-//     public static void  test3 (){
-//         // LinkedList<String> ll = new LinkedList<>();
+// //     public static void  test3 (){
+// //         // LinkedList<String> ll = new LinkedList<>();
 
-//         PriorityQueue<String> ll = new PriorityQueue<>();
-//         ll.add("adfsa"); System.out.println(ll);
-//         ll.add("dsafds");System.out.println(ll);
-//         ll.add("gfhsfdsg");System.out.println(ll);
-//         ll.add("ajfdsdfsj");System.out.println(ll);
-//         ll.add("eadsfr");System.out.println(ll);
-//         ll.add("bfsdsfd");System.out.println(ll);
-//         // ll.push("new");System.out.println(ll);
-//         // ll.push("new2");System.out.println(ll);
-//         // ll.push("new32");System.out.println(ll);
-//         // ll.push("new43");System.out.println(ll);
-//         // ll.pop();System.out.println(ll);
+// //         PriorityQueue<String> ll = new PriorityQueue<>();
+// //         ll.add("adfsa"); System.out.println(ll);
+// //         ll.add("dsafds");System.out.println(ll);
+// //         ll.add("gfhsfdsg");System.out.println(ll);
+// //         ll.add("ajfdsdfsj");System.out.println(ll);
+// //         ll.add("eadsfr");System.out.println(ll);
+// //         ll.add("bfsdsfd");System.out.println(ll);
+// //         // ll.push("new");System.out.println(ll);
+// //         // ll.push("new2");System.out.println(ll);
+// //         // ll.push("new32");System.out.println(ll);
+// //         // ll.push("new43");System.out.println(ll);
+// //         // ll.pop();System.out.println(ll);
 
-//         }
+// //         }
 
 
 
-//         public static void  test4 (){
+// //         public static void  test4 (){
 
-//            Set<String> setq=new TreeSet<>();    
-//            setq.add("One");System.out.println(setq);
-//            setq.add("Two");   System.out.println(setq);   
-//            setq.add("Two");setq.add("Two");setq.add("Two");setq.add("Two");  
-//            setq.add("Three");   System.out.println(setq);  
-//            setq.add("Four");    System.out.println(setq);
-//            setq.add("Five");    System.out.println(setq);
-//         }
+// //            Set<String> setq=new TreeSet<>();    
+// //            setq.add("One");System.out.println(setq);
+// //            setq.add("Two");   System.out.println(setq);   
+// //            setq.add("Two");setq.add("Two");setq.add("Two");setq.add("Two");  
+// //            setq.add("Three");   System.out.println(setq);  
+// //            setq.add("Four");    System.out.println(setq);
+// //            setq.add("Five");    System.out.println(setq);
+// //         }
         
         
-//         public static <T> void  test5 (){
+// //         public static <T> void  test5 (){
 
 
-//             TreeMap<Integer,String> hp = new TreeMap<>(new Comparator<Integer>() {
-//                 @Override
-//                 public int compare(Integer a, Integer b){if(a>b)return -1;else return 1;}
-//             });
-//             // TreeMap<Integer,String> hp = new TreeMap<>();
-//             hp.put(1,"dasf");
-//             hp.put(5,"dsaf");
-//             hp.put(9,"gf");
-//             hp.put(4,"fds");
+// //             TreeMap<Integer,String> hp = new TreeMap<>(new Comparator<Integer>() {
+// //                 @Override
+// //                 public int compare(Integer a, Integer b){if(a>b)return -1;else return 1;}
+// //             });
+// //             // TreeMap<Integer,String> hp = new TreeMap<>();
+// //             hp.put(1,"dasf");
+// //             hp.put(5,"dsaf");
+// //             hp.put(9,"gf");
+// //             hp.put(4,"fds");
 //             hp.put(23,"a");
 //             System.out.println(hp);
 //         }

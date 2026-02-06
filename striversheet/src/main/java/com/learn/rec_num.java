@@ -91,4 +91,26 @@ public class rec_num {
         } else
             return "YES";
     }
+
+    public static void rec_bub(Integer []a, int n){
+
+        if(n==1) return;
+        boolean didSwap =false;
+        for (int i =0;i<n;i++){
+            if(a[i+1]<a[i]){
+                Integer temp = a[i+1];
+                a[i+1]= a[i];
+                a[i]=temp;
+                didSwap =true;
+            }}
+
+            if (!didSwap) return;
+
+            rec_bub(a, n-1);
+                
+            }
+            
+
+        
+    
 }

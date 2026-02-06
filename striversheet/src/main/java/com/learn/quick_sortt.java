@@ -16,14 +16,14 @@ public class quick_sortt {
 
     private static int partition(Integer arr[],int low,int high){
         
-    Integer pivot = arr[low];
-    int pivot_psn= low;
+    Integer pivot = arr[high];
+    
     int x=low;
     
-    for(int i = low+1; i<=high;i++){
-        if(arr[i]<pivot){if(x==pivot_psn)pivot_psn=i;swap(arr, x++, i);}
+    for(int i = low; i<high;i++){
+        if(arr[i]<pivot){swap(arr, x++, i);}
     }
-    swap(arr, pivot_psn, x);
+    swap(arr, high, x);
     return x;
     }
 
